@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atom Labs</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1><a href="Home.html">Atom Labs ltd.</a></h1>
+  <div class="topnav">
+    <a href="Home.html">Home</a>
+    <a href="Courses.html">Courses</a>
+    <a class="active" href="Students.html">Students</a>
+    <a href="Teachers.html">Teachers</a>
+    <a href="Assingments.html">Assingments</a>
+  </div>
+
+  <div class="form">
+    <form>
+      <div class="inputWrap">
+        <label class="label" for="labelForfirstName">First name:</label>
+        <input class="input" type="text" name="firstName" id="firstName" placeholder="First Name">
+      </div>
+      <div class="inputWrap">
+        <label class="label" for="labelForlastName">Last name:</label>
+        <input class="input" type="text" name="lastName" id="lastName" placeholder="Last Name">
+      </div>
+      <div class="inputWrap">
+        <label class="label" for="labelFordateOfBirth">Date of Birth:</label>
+        <input class="input" type="date" name="dateOfBirth" id="dateOfBirth" placeholder="Birthdate">
+      </div>
+      <div class="inputWrap">
+        <label class="label" for="labelFortuitionFees">Tuition Fees:</label>
+        <input class="input" type="number" name="tuitionFees" id="tuitionFees" placeholder="Tuition Fees">
+      </div>
+      <div>
+      <button type="submit" id="studentSubmit">Submit</button>
+      <button type="submit" id="studentUpdate" hidden="true">Update</button>
+      <button type="reset" id="studentReset">Reset</button>
+    </div>
+      <br>
+    </form>
+    <br>
+  </div>
+  <div id="divResults">
+    <ul id="results" style="list-style-type: none;">
+
+    </ul>
+  </div>
+  <footer class="footer">
+    <div class="footerdiv">
+      <div class="footerBox">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Contact">Contact</li>
+          <li><a href="#Privacy Policy">Privacy Policy</a></li>
+          <li><a href="#Sitemap">Sitemap</a></li>
+        </ul>
+      </div>
+      <div class="footerBox">
+        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by <a href="#mkStudios">mk Studios</a>.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="Students.js"></script>
+</body>
+
+</html>
